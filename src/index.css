@@ -1,7 +1,15 @@
-.itkam-slider {
-  text-align: center;
+#itk-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#slide-img {
+.show-prev-btn,
+.show-next-btn {
+  font-size: 36px;
+  margin: 10px;
+}
+
+.slide-img {
   max-width: 500px;
 }

@@ -1,3 +1,4 @@
-import { slider } from "./slider.js";
+import { Slider } from "./classes/slider.js";
 
-slider.start();
+const slider = new Slider();
+slider.start("#itk-slider");
